@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE05BC131CC9D82A00490DEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE05BC121CC9D82A00490DEF /* main.m */; };
+		EE05BC161CC9D82A00490DEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE05BC151CC9D82A00490DEF /* AppDelegate.m */; };
+		EE05BC191CC9D82A00490DEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE05BC181CC9D82A00490DEF /* ViewController.m */; };
+		EE05BC1C1CC9D82A00490DEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE05BC1A1CC9D82A00490DEF /* Main.storyboard */; };
+		EE05BC1E1CC9D82A00490DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE05BC1D1CC9D82A00490DEF /* Assets.xcassets */; };
+		EE05BC211CC9D82A00490DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE05BC1F1CC9D82A00490DEF /* LaunchScreen.storyboard */; };
+		EE05BC2C1CC9D82B00490DEF /* AtlassianHipChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE05BC2B1CC9D82B00490DEF /* AtlassianHipChatAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE05BC281CC9D82B00490DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE05BC061CC9D82A00490DEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE05BC0D1CC9D82A00490DEF;
+			remoteInfo = AtlassianHipChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE05BC0E1CC9D82A00490DEF /* AtlassianHipChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlassianHipChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE05BC121CC9D82A00490DEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE05BC141CC9D82A00490DEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE05BC151CC9D82A00490DEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE05BC171CC9D82A00490DEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE05BC181CC9D82A00490DEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE05BC1B1CC9D82A00490DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE05BC1D1CC9D82A00490DEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE05BC201CC9D82A00490DEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE05BC221CC9D82A00490DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE05BC271CC9D82B00490DEF /* AtlassianHipChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlassianHipChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE05BC2B1CC9D82B00490DEF /* AtlassianHipChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtlassianHipChatAppTests.m; sourceTree = "<group>"; };
+		EE05BC2D1CC9D82B00490DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE05BC0B1CC9D82A00490DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05BC241CC9D82B00490DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE05BC051CC9D82A00490DEF = {
+			isa = PBXGroup;
+			children = (
+				EE05BC101CC9D82A00490DEF /* AtlassianHipChatApp */,
+				EE05BC2A1CC9D82B00490DEF /* AtlassianHipChatAppTests */,
+				EE05BC0F1CC9D82A00490DEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE05BC0F1CC9D82A00490DEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE05BC0E1CC9D82A00490DEF /* AtlassianHipChatApp.app */,
+				EE05BC271CC9D82B00490DEF /* AtlassianHipChatAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE05BC101CC9D82A00490DEF /* AtlassianHipChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				EE05BC141CC9D82A00490DEF /* AppDelegate.h */,
+				EE05BC151CC9D82A00490DEF /* AppDelegate.m */,
+				EE05BC171CC9D82A00490DEF /* ViewController.h */,
+				EE05BC181CC9D82A00490DEF /* ViewController.m */,
+				EE05BC1A1CC9D82A00490DEF /* Main.storyboard */,
+				EE05BC1D1CC9D82A00490DEF /* Assets.xcassets */,
+				EE05BC1F1CC9D82A00490DEF /* LaunchScreen.storyboard */,
+				EE05BC221CC9D82A00490DEF /* Info.plist */,
+				EE05BC111CC9D82A00490DEF /* Supporting Files */,
+			);
+			path = AtlassianHipChatApp;
+			sourceTree = "<group>";
+		};
+		EE05BC111CC9D82A00490DEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE05BC121CC9D82A00490DEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE05BC2A1CC9D82B00490DEF /* AtlassianHipChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE05BC2B1CC9D82B00490DEF /* AtlassianHipChatAppTests.m */,
+				EE05BC2D1CC9D82B00490DEF /* Info.plist */,
+			);
+			path = AtlassianHipChatAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE05BC0D1CC9D82A00490DEF /* AtlassianHipChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE05BC301CC9D82B00490DEF /* Build configuration list for PBXNativeTarget "AtlassianHipChatApp" */;
+			buildPhases = (
+				EE05BC0A1CC9D82A00490DEF /* Sources */,
+				EE05BC0B1CC9D82A00490DEF /* Frameworks */,
+				EE05BC0C1CC9D82A00490DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtlassianHipChatApp;
+			productName = AtlassianHipChatApp;
+			productReference = EE05BC0E1CC9D82A00490DEF /* AtlassianHipChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE05BC261CC9D82B00490DEF /* AtlassianHipChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE05BC331CC9D82B00490DEF /* Build configuration list for PBXNativeTarget "AtlassianHipChatAppTests" */;
+			buildPhases = (
+				EE05BC231CC9D82B00490DEF /* Sources */,
+				EE05BC241CC9D82B00490DEF /* Frameworks */,
+				EE05BC251CC9D82B00490DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE05BC291CC9D82B00490DEF /* PBXTargetDependency */,
+			);
+			name = AtlassianHipChatAppTests;
+			productName = AtlassianHipChatAppTests;
+			productReference = EE05BC271CC9D82B00490DEF /* AtlassianHipChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE05BC061CC9D82A00490DEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = University;
+				TargetAttributes = {
+					EE05BC0D1CC9D82A00490DEF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EE05BC261CC9D82B00490DEF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EE05BC0D1CC9D82A00490DEF;
+					};
+				};
+			};
+			buildConfigurationList = EE05BC091CC9D82A00490DEF /* Build configuration list for PBXProject "AtlassianHipChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE05BC051CC9D82A00490DEF;
+			productRefGroup = EE05BC0F1CC9D82A00490DEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE05BC0D1CC9D82A00490DEF /* AtlassianHipChatApp */,
+				EE05BC261CC9D82B00490DEF /* AtlassianHipChatAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE05BC0C1CC9D82A00490DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE05BC211CC9D82A00490DEF /* LaunchScreen.storyboard in Resources */,
+				EE05BC1E1CC9D82A00490DEF /* Assets.xcassets in Resources */,
+				EE05BC1C1CC9D82A00490DEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05BC251CC9D82B00490DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE05BC0A1CC9D82A00490DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE05BC191CC9D82A00490DEF /* ViewController.m in Sources */,
+				EE05BC161CC9D82A00490DEF /* AppDelegate.m in Sources */,
+				EE05BC131CC9D82A00490DEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE05BC231CC9D82B00490DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE05BC2C1CC9D82B00490DEF /* AtlassianHipChatAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE05BC291CC9D82B00490DEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE05BC0D1CC9D82A00490DEF /* AtlassianHipChatApp */;
+			targetProxy = EE05BC281CC9D82B00490DEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE05BC1A1CC9D82A00490DEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE05BC1B1CC9D82A00490DEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE05BC1F1CC9D82A00490DEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE05BC201CC9D82A00490DEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE05BC2E1CC9D82B00490DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE05BC2F1CC9D82B00490DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE05BC311CC9D82B00490DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AtlassianHipChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.AtlassianHipChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE05BC321CC9D82B00490DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AtlassianHipChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.AtlassianHipChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE05BC341CC9D82B00490DEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtlassianHipChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.AtlassianHipChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtlassianHipChatApp.app/AtlassianHipChatApp";
+			};
+			name = Debug;
+		};
+		EE05BC351CC9D82B00490DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AtlassianHipChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Swinburne.AtlassianHipChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtlassianHipChatApp.app/AtlassianHipChatApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE05BC091CC9D82A00490DEF /* Build configuration list for PBXProject "AtlassianHipChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05BC2E1CC9D82B00490DEF /* Debug */,
+				EE05BC2F1CC9D82B00490DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE05BC301CC9D82B00490DEF /* Build configuration list for PBXNativeTarget "AtlassianHipChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05BC311CC9D82B00490DEF /* Debug */,
+				EE05BC321CC9D82B00490DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE05BC331CC9D82B00490DEF /* Build configuration list for PBXNativeTarget "AtlassianHipChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE05BC341CC9D82B00490DEF /* Debug */,
+				EE05BC351CC9D82B00490DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE05BC061CC9D82A00490DEF /* Project object */;
+}
