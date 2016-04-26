@@ -14,6 +14,7 @@
 		EE05BC1E1CC9D82A00490DEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE05BC1D1CC9D82A00490DEF /* Assets.xcassets */; };
 		EE05BC211CC9D82A00490DEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE05BC1F1CC9D82A00490DEF /* LaunchScreen.storyboard */; };
 		EE05BC2C1CC9D82B00490DEF /* AtlassianHipChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE05BC2B1CC9D82B00490DEF /* AtlassianHipChatAppTests.m */; };
+		EE5DCB5B1CCF7A6600DB9DBB /* OutputJSONViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5DCB5A1CCF7A6600DB9DBB /* OutputJSONViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EE05BC271CC9D82B00490DEF /* AtlassianHipChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlassianHipChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE05BC2B1CC9D82B00490DEF /* AtlassianHipChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtlassianHipChatAppTests.m; sourceTree = "<group>"; };
 		EE05BC2D1CC9D82B00490DEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5DCB591CCF7A6600DB9DBB /* OutputJSONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputJSONViewController.h; sourceTree = "<group>"; };
+		EE5DCB5A1CCF7A6600DB9DBB /* OutputJSONViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputJSONViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				EE05BC1F1CC9D82A00490DEF /* LaunchScreen.storyboard */,
 				EE05BC221CC9D82A00490DEF /* Info.plist */,
 				EE05BC111CC9D82A00490DEF /* Supporting Files */,
+				EE5DCB591CCF7A6600DB9DBB /* OutputJSONViewController.h */,
+				EE5DCB5A1CCF7A6600DB9DBB /* OutputJSONViewController.m */,
 			);
 			path = AtlassianHipChatApp;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				EE05BC191CC9D82A00490DEF /* ViewController.m in Sources */,
 				EE05BC161CC9D82A00490DEF /* AppDelegate.m in Sources */,
 				EE05BC131CC9D82A00490DEF /* main.m in Sources */,
+				EE5DCB5B1CCF7A6600DB9DBB /* OutputJSONViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +410,7 @@
 				EE05BC321CC9D82B00490DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE05BC331CC9D82B00490DEF /* Build configuration list for PBXNativeTarget "AtlassianHipChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				EE05BC351CC9D82B00490DEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,25 +1,174 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Eo-3v-drc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TH-pU-ylR">
+                                <rect key="frame" x="86" y="319" width="149" height="30"/>
+                                <color key="backgroundColor" red="0.78353118896484375" green="0.39372146129608154" blue="0.10637978464365005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="KP5-W6-7Rc"/>
+                                    <constraint firstAttribute="height" constant="30" id="pCP-Pa-d4x"/>
+                                </constraints>
+                                <state key="normal" title="Convert Text to JSON">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertTextToJSONString:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uiZ-Uh-Mo0"/>
+                                    <segue destination="xNw-cM-XhC" kind="show" identifier="showOutput" id="PR5-iu-jgr"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E8U-0V-FyP">
+                                <rect key="frame" x="20" y="102" width="280" height="154"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.78353118896484375" green="0.39372146129608154" blue="0.10637978464365005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Type your text  here Example: @John  Hi @Joey  (Happy) Please visit these links : ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.48449385971666159" green="0.2275988597291832" blue="0.057655025744539831" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="www.google.com">
+                                        <attributes>
+                                            <color key="NSColor" red="0.48449385971666159" green="0.2275988597291832" blue="0.057655025744539831" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <url key="NSLink" string="http://www.google.com"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="  ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.48449385971666159" green="0.2275988597291832" blue="0.057655025744539831" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="other url is">
+                                        <attributes>
+                                            <color key="NSColor" red="0.48449385971666159" green="0.2275988597291832" blue="0.057655025744539831" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <font key="NSOriginalFont" size="14" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.48449385971666159" green="0.2275988597291832" blue="0.057655025744539831" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://www.nbcolympics.com">
+                                        <attributes>
+                                            <color key="NSColor" red="0.48449385971666159" green="0.2275988597291832" blue="0.057655025744539831" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="ArialMT"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="http://www.nbcolympics.com"/>
+                                            <color key="NSStrokeColor" red="0.062745098039215685" green="0.23529411764705882" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                            <color key="NSUnderlineColor" red="0.062745098039215685" green="0.23529411764705882" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nor-c5-ddC"/>
+                                </connections>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97542387247085571" green="0.96827942132949829" blue="0.90990746021270752" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7TH-pU-ylR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4u1-Gf-utf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="E8U-0V-FyP" secondAttribute="trailing" id="64O-Im-sbj"/>
+                            <constraint firstItem="7TH-pU-ylR" firstAttribute="top" secondItem="E8U-0V-FyP" secondAttribute="bottom" constant="63" id="7ms-c2-3BQ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="E8U-0V-FyP" secondAttribute="leading" id="Akd-J2-6u7"/>
+                            <constraint firstItem="E8U-0V-FyP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="38" id="KlI-RF-9D2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7TH-pU-ylR" secondAttribute="bottom" constant="219" id="xAJ-md-ids"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Mbr-af-V1J"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="chatTextViewField" destination="E8U-0V-FyP" id="Tc9-1A-5DH"/>
+                        <outlet property="convertTxtToJSONBtn" destination="7TH-pU-ylR" id="0Ti-w6-lrZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1057" y="337"/>
+        </scene>
+        <!--Output-->
+        <scene sceneID="Xh2-r4-8Mg">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="xNw-cM-XhC" customClass="OutputJSONViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AVY-1e-e8Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="otc-Wn-aMb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Osr-60-WPT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymP-29-eza">
+                                <rect key="frame" x="11" y="72" width="289" height="488"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97542387247085571" green="0.96827942132949829" blue="0.90990746021270752" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ymP-29-eza" firstAttribute="top" secondItem="AVY-1e-e8Y" secondAttribute="bottom" constant="8" id="2QB-Ar-ESN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ymP-29-eza" secondAttribute="trailing" id="Gjy-i8-XMW"/>
+                            <constraint firstItem="otc-Wn-aMb" firstAttribute="top" secondItem="ymP-29-eza" secondAttribute="bottom" constant="8" id="R2O-wt-79E"/>
+                            <constraint firstItem="ymP-29-eza" firstAttribute="leading" secondItem="Osr-60-WPT" secondAttribute="leadingMargin" constant="-9" id="zvD-Md-UQA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Output" id="xwg-OH-ey1"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="outputLbl" destination="ymP-29-eza" id="CAl-64-9Ug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ViK-LQ-Nam" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1437" y="337"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hvm-9j-0KT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Eo-3v-drc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pnn-Lk-z9T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wun-ok-bhe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dfl-mW-M2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="337"/>
         </scene>
     </scenes>
 </document>
